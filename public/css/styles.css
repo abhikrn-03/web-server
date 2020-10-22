@@ -4,7 +4,7 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-
+    background-color: #a6bfad;
     display: flex;
     flex-direction: column;
     min-height: 100vh
@@ -15,7 +15,7 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: #666;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -32,13 +32,14 @@ h1 {
 }
 
 header a {
-    color: #888888;
-    margin-right: 16px;
+    color: #666;
+    margin-left: 20px;
     text-decoration: none;
 }
 
 .portrait {
     width: 250px;
+    margin-left: 85px;
 }
 
 input {
@@ -52,4 +53,12 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+#flink {
+    margin-left: 85px;
+}
+
+p {
+    margin-left: 85px;
 }
