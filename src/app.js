@@ -56,6 +56,7 @@ app.get('/weather', (req, res) => {
                 address: req.query.address,
                 location,
                 Forecast,
+                mapUrl: 'https://api.mapbox.com/styles/v1/mapbox/light-v10/static/' + longitude + ',' + latitude + ',12.5,0/600x420?access_token=pk.eyJ1IjoiYWJoaWtybi0wMyIsImEiOiJja2dhZndzeGwwNm92MnNzNXE4emM2dGZsIn0.S6m1cDe0bjmklVJqOuMQjw'
             });
         });
     });

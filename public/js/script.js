@@ -2,6 +2,7 @@ const form = document.querySelector('form');
 const input = document.querySelector('input');
 const message1 = document.querySelector('#message1');
 const message2 = document.querySelector('#message2');
+const map = document.querySelector('#mapImg');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -15,6 +16,7 @@ form.addEventListener('submit', (e) => {
             } else {
                 message1.textContent = data.location;
                 message2.textContent = data.Forecast;
+                map.src = data.mapUrl;
             }
         });
     });

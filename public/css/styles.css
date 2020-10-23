@@ -1,13 +1,14 @@
 body {
-    color: #333333;
+    color: #fff;
     font-family: arial;
-    max-width: 650px;
+    max-width: 750px;
     margin: 0 auto;
     padding: 0 16px;
     background-color: #a6bfad;
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+    background-image: url('/images/bgWeather2.jpg');
 }
 
 .main-content {
@@ -62,5 +63,9 @@ button {
 }
 
 p {
+    margin-left: 85px;
+}
+
+.map {
     margin-left: 85px;
 }
